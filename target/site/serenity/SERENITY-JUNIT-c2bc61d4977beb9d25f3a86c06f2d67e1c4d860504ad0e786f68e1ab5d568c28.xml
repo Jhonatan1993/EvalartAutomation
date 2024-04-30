@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="As a candidate of evalart I want to enter the website to create the test" skipped="0" tests="1" time="9.37" timestamp="2024-04-30 01:17:15"><testcase name="validate that the test performs the ten cycles"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='text-center text-xl font-bold']&quot;}&#10;  (Session info: chrome=124.0.6367.92)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '11.0.23'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d143a214814b544582e2c9e06a6419c6, findElement {using=xpath, value=//*[@class='text-center text-xl font-bold']}]&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/7t/s73rrrb967q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64252/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d143a214814b544582e2c9e06a6419c6" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='text-center text-xl font-bold']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d143a214814b544582e2c9e06a6419c6, findElement {using=xpath, value=//*[@class='text-center text-xl font-bold']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/7t/s73rrrb967q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64252/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d143a214814b544582e2c9e06a6419c6</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='text-center text-xl font-bold']"}
+  (Session info: chrome=124.0.6367.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.1', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d143a214814b544582e2c9e06a6419c6, findElement {using=xpath, value=//*[@class='text-center text-xl font-bold']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 124.0.6367.92, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: /var/folders/7t/s73rrrb967q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64252}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64252/devtoo..., se:cdpVersion: 124.0.6367.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d143a214814b544582e2c9e06a6419c6
+net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:259)
+com.evarlat.certification.automation.utils.MethodNumber.performMathOperation(MethodNumber.java:21)
+com.evarlat.certification.automation.interactions.CycleOperation.performAs(CycleOperation.java:22)
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:470)
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:212)
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:199)
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:91)
+com.evarlat.certification.automation.tasks.OperationCycle.performAs(OperationCycle.java:13)
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:518)
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:498)
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:470)
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:212)
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:199)
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:91)
+com.evarlat.certification.automation.stepdefinition.EvalartStepDefinition.carryOutTheProposedOperations(EvalartStepDefinition.java:31)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:332)
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:53)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase></testsuite>
